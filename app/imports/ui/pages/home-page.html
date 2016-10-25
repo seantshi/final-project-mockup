@@ -1,0 +1,23 @@
+<template name="Home_Page">
+  <div class="ui middle aligned centered grid text container">
+
+    <div  style="margin-top: 20px" class="two wide column">
+      <img class="ui image" src="/images/calendar.jpg"/>
+    </div>
+
+    <div style="margin-top: 20px"  class="six wide column">
+      <h1>Welcome</h1>
+      <p>This website was created to help improve coordination between TAs and students to find the best time to meet up</p>
+
+      <p>To best use this, add what times you are free on each day to help find the best time for everyone to meet up</p>
+    </div>
+
+    <div  style="margin-top: 20px" class="two wide column">
+      <h1>Add/Edit time</h1>
+      <p><a href="{{pathFor 'Add_Time_Page'}}">Add time</a></p>
+      <p><a href="{{pathFor 'Edit_Time_Page'}}">Edit time</a></p>
+      <p><a href="{{pathFor 'View_Time_Page'}}">View all times</a></p>
+    </div>
+
+  </div>
+</template>
